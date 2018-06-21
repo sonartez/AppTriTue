@@ -1,0 +1,5 @@
+D:\Linh Data\Develop\AppTriTue\AppTriTue_Database\bin\Debug\AppTriTue_Database.dacpac
+D:\Linh Data\Develop\AppTriTue\AppTriTue_Database\bin\Debug\AppTriTue_Database.dll
+D:\Linh Data\Develop\AppTriTue\AppTriTue_Database\bin\Debug\AppTriTue_Database.pdb
+D:\Linh Data\Develop\AppTriTue\AppTriTue_Database\obj\Debug\AppTriTue_Database.dll
+D:\Linh Data\Develop\AppTriTue\AppTriTue_Database\obj\Debug\AppTriTue_Database.pdb

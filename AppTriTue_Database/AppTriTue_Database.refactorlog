@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="b2aaf79d-5a60-4110-a776-8d881a17f19a" ChangeDateTime="06/21/2018 07:03:15">
+    <Property Name="ElementName" Value="[dbo].[DeskPlayer].[TotalPlay]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[DeskPlayer]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TotalPlayer" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="eefcea90-1769-43ee-bc51-d55bc5045a36" ChangeDateTime="06/21/2018 07:10:47">
+    <Property Name="ElementName" Value="[dbo].[DeskPlayer].[DeskTime]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[DeskPlayer]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DeskId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="432f9a9b-ba4c-405d-aace-5ea2c2963855" ChangeDateTime="06/21/2018 07:10:55">
+    <Property Name="ElementName" Value="[dbo].[DeskPlayer].[TotalPlayer]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[DeskPlayer]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PlayerName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5ca5bab0-6df9-411a-8937-a278b957c863" ChangeDateTime="06/21/2018 07:12:27">
+    <Property Name="ElementName" Value="[dbo].[DeskPlayer].[MaxWin]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[DeskPlayer]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TotalWin" />
+  </Operation>
+</Operations>

@@ -1,0 +1,4 @@
+﻿CREATE TABLE [dbo].[Macth]
+(
+	[Id] INT NOT NULL PRIMARY KEY
+)

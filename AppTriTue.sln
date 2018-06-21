@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppTriTue", "AppTriTue\AppTriTue.csproj", "{C635DD42-55B8-4215-AB0D-F6E9B0C0F8F9}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "AppTriTue_Database", "AppTriTue_Database\AppTriTue_Database.sqlproj", "{68DE745B-49D6-403C-AE7E-9C45ABAE4C74}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AppTriTue_Client", "AppTriTue_Client\", "{187F865F-E79E-4E70-8A43-F35E70C9D2E2}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53293"
+		Debug.AspNetCompiler.PhysicalPath = "AppTriTue_Client\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53293\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53293"
+		Release.AspNetCompiler.PhysicalPath = "AppTriTue_Client\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53293\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53293"
+		SlnRelativePath = "AppTriTue_Client\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C635DD42-55B8-4215-AB0D-F6E9B0C0F8F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C635DD42-55B8-4215-AB0D-F6E9B0C0F8F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C635DD42-55B8-4215-AB0D-F6E9B0C0F8F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C635DD42-55B8-4215-AB0D-F6E9B0C0F8F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68DE745B-49D6-403C-AE7E-9C45ABAE4C74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68DE745B-49D6-403C-AE7E-9C45ABAE4C74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68DE745B-49D6-403C-AE7E-9C45ABAE4C74}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{68DE745B-49D6-403C-AE7E-9C45ABAE4C74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68DE745B-49D6-403C-AE7E-9C45ABAE4C74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68DE745B-49D6-403C-AE7E-9C45ABAE4C74}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{187F865F-E79E-4E70-8A43-F35E70C9D2E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{187F865F-E79E-4E70-8A43-F35E70C9D2E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{187F865F-E79E-4E70-8A43-F35E70C9D2E2}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{187F865F-E79E-4E70-8A43-F35E70C9D2E2}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46075F1D-02EC-4178-B7B9-12CBDD0E48DF}
+	EndGlobalSection
+EndGlobal

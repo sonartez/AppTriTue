@@ -1,0 +1,29 @@
+<ion-view title="Đại Sảnh Đường" id="page2">
+  <ion-content padding="true" class="has-header">
+    <div id="ISNhNg-container5">
+      <a ui-sref="tabsController.giangH()" id="ISNhNg-button2" class="button button-assertive button-block icon-right ion-play">Mở sòng </a>
+    </div>
+    <div id="ISNhNg-markdown1" class="show-list-numbers-and-dots">
+      <p style="color:#743A05;">Ta mang bao tội lỗi, người ơi ta đâu cần chi...</p>
+    </div>
+    <div id="ISNhNg-container4">
+      <form id="ISNhNg-form2" class="list">
+        <label class="item item-input" id="ISNhNg-input2">
+          <span class="input-label">Quý tính</span>
+          <input type="text" value="" name="addName" ng-model="addName" placeholder="">
+        </label>
+      </form>
+      <button id="ISNhNg-button1" class="button button-positive button-block" ng-click="add()">Thêm vị đạo hữu này vào</button>
+    </div>
+    <div id="ISNhNg-container2">
+      <ion-list id="ISNhNg-list2" >
+          <ion-item class="item-icon-right" ng-repeat="item in players" id="ISNhNg-list-item5">
+              {{item.Name}}
+              <i class="icon ion-android-sad"></i>
+              <ion-option-button class="button-dark" ng-click="chay($index)">Xin chạy</ion-option-button>
+          </ion-item>
+       
+      </ion-list>
+    </div>
+  </ion-content>
+</ion-view>
